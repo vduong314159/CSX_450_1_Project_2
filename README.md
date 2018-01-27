@@ -19,7 +19,8 @@
  A solution to this problem will be a KMeans clustering model.
 
 + BENCHMARK MODEL
-  N/A Unsupervised models can't be benchmarked.
+
+ Unsupervised models can't be benchmarked.
   
  + EVALUATION METRICS
  
