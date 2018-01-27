@@ -7,26 +7,21 @@
  
  + PROBLEM STATEMENT
  
- Given the wholesale data on 400 client, we wish to explore between channel and spending on milk products using cluster analysis in order to design promotions.
+ Given the wholesale data on 440 clients, we wish to explore the relationship between grocery and milk spending using cluster analysis in order to design promotions.
 
  
  + DATASET AND INPUTS
  
- The dataset to be examined is the wholesale customers which consists of 440 customers memberships and 8 variables (FRESH,MILK, GROCERY, FROGEN, DETERGENTS_PAPERS, DELICATESSEN, REGION, CHANNEL).
+ The dataset to be examined is the wholesale customers which consists of 440 customers and 8 variables (FRESH,MILK, GROCERY, FROZEN, DETERGENT_PAPERS, DELICASSEN, REGION, CHANNEL).
  
  + SOLUTION STATEMANT
  
- A solution to this problem will be a cluster analysis using a model such as KMeans clustering or a Hierachical      clustering,
- 
-  
- + INSIGHTS: 
- More milk spending occurred in channel 2 (retail), but channel 1(hotel/restaurant/cafe) has more clients. 
- Channel 2 (retail) also has higher average spending ($10,716 vs $3,452) than channel 1 (hotel/restaurant/cafe)
+ A solution to this problem will be a KMeans clustering model.
 
 + BENCHMARK MODEL
-  N/A unsupervised model
+  N/A Unsupervised models can't be benchmarked.
   
- + Evaluation Metrics
+ + EVALUATION METRICS
  
  Given that this is a clustering task, we can measure the success of our model using the silhouette score.
   
