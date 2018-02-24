@@ -1,4 +1,4 @@
-# CSX_450_1_Project_2
+# customers_clustering_project
 
 
 + DOMAIN
