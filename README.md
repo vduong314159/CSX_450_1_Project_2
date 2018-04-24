@@ -11,28 +11,28 @@ Cluster Modeling (K-Means and Hierarchical)
 Data Visualization (ggplot, GGAlly)
 
 
-## DOMAIN
+## Domain
 
  The problem is drawn from the analysis of wholesale customer data set.
  
-## PROBLEM STATEMENT
+## Problem Statement
  
  We wish to perform exploratory data analysis and gain insights using clustering models. 
 
  
-## DATASET AND INPUTS
+## Dataset and Inputs
  
  The dataset to be examined is the wholesale customers which consists of 440 customers and 8 variables (FRESH,MILK, GROCERY, FROZEN, DETERGENT_PAPERS, DELICASSEN, REGION, CHANNEL).
  
-## SOLUTION STATEMANT
+## Solution Statement
  
  A solution to this problem will be a KMeans and Hierarchical clustering model.
 
-## BENCHMARK MODEL
+## Benchmark Model
 
  Unsupervised models can't be benchmarked.
  
-## EVALUATION METRICS
+## Evaluation Metrics
  
  There aren't really evaluation metrics for exploratory data analysis.
   
