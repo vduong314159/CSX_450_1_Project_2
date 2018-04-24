@@ -2,13 +2,22 @@
 
 You can find my analysis [here](https://github.com/vduong314159/customers_clustering_project/tree/master/ipynb). 
 
+## Skills/Tools Used
+R Language
+Jupyter Notebooks
+Linear Algebra
+Statistis
+Cluster Modeling (K-Means and Hierarchical)
+Data Visualization (ggplot, GGAlly)
+
+
 ## DOMAIN
 
  The problem is drawn from the analysis of wholesale customer data set.
  
 ## PROBLEM STATEMENT
  
- Given the wholesale data on 440 clients, we wish to explore the relationship between grocery and milk spending using cluster analysis in order to design promotions.
+ We wish to perform exploratory data analysis and gain insights using clustering models. 
 
  
 ## DATASET AND INPUTS
@@ -17,7 +26,7 @@ You can find my analysis [here](https://github.com/vduong314159/customers_cluste
  
 ## SOLUTION STATEMANT
  
- A solution to this problem will be a KMeans clustering model.
+ A solution to this problem will be a KMeans and Hierarchical clustering model.
 
 ## BENCHMARK MODEL
 
@@ -25,6 +34,6 @@ You can find my analysis [here](https://github.com/vduong314159/customers_cluste
  
 ## EVALUATION METRICS
  
- Given that this is a clustering task, we can measure the success of our model using the silhouette score.
+ There aren't really evaluation metrics for exploratory data analysis.
   
  

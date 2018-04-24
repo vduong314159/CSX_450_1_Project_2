@@ -1,10 +1,8 @@
-# look to 01-data_description_and_formatting.ipynb for reasoning behind 
-# the following data formatting
+library(mlbench)
 
 wholesale_data = read.csv('../data/dataset.csv', header = TRUE)
 
-# fixg spelling error
-colnames(wholesale_data)[8] <- 'Delicatessen'
+colnames(wholesale_data)[8] <- 'Deli'
 
 wholesale_data$Channel[wholesale_data$Channel == 1] <- "Horeca"
 wholesale_data$Channel[wholesale_data$Channel == 2] <- "Retail"
