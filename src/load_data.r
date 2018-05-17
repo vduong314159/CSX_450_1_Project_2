@@ -26,7 +26,8 @@ display_outliers <- function(feature, param = 4, df = wholesale_data) {
     return(outliers)
 }
 
-outlier_dfs <- sapply(X = colnames(Filter(is.numeric, wholesale_data)), FUN = display_outliers, simplify = FALSE)
+outlier_dfs <- sapply(X = colnames(Filter(is.numeric, wholesale_data)),
+                      FUN = display_outliers, simplify = FALSE)
 
 ## sapply() is difficult because rownames() returns a vector and sapply does not append vectors to return a vector
 ## it will return a list which messes up following code
